@@ -1,0 +1,8 @@
+.idea
+
+smart-framework/target
+smart-framework-web/target
+
+spring-smart-framework.iml
+smart-framework/smart-framework.iml
+smart-framework-web/smart-framework-web.iml
