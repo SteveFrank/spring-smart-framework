@@ -23,4 +23,9 @@ public class GenericClassExample<T> {
     public T handleSomething(T target) {
         return target;
     }
+    public <E> void printArray(E[] inputArray) {
+        for (E e : inputArray) {
+            System.out.println(e);
+        }
+    }
 }
