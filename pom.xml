@@ -12,8 +12,9 @@
 
     <modules>
         <module>smart-framework</module>
-        <module>smart-framework-web</module>
         <module>smart-framework-pattern</module>
+        <module>smart-framework-web-demo</module>
+        <module>smart-framework-simple-demo</module>
     </modules>
 
     <properties>
@@ -51,7 +52,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>smart-framework-web</finalName>
+        <finalName>smart-framework-web-demo</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
