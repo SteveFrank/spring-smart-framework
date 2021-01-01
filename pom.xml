@@ -13,6 +13,7 @@
     <modules>
         <module>smart-framework</module>
         <module>smart-framework-web</module>
+        <module>smart-framework-pattern</module>
     </modules>
 
     <properties>
@@ -33,6 +34,18 @@
                 <groupId>javax.servlet.jsp</groupId>
                 <artifactId>javax.servlet.jsp-api</artifactId>
                 <version>2.3.3</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.7.28</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.10</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

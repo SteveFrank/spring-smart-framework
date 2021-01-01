@@ -2,7 +2,9 @@
 
 smart-framework/target
 smart-framework-web/target
+smart-framework-pattern/target
 
 spring-smart-framework.iml
 smart-framework/smart-framework.iml
 smart-framework-web/smart-framework-web.iml
+smart-framework-pattern/smart-framework-pattern.iml
