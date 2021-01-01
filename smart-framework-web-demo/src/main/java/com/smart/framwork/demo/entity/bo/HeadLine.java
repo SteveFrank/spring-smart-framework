@@ -1,4 +1,4 @@
-package com.smart.framwork.demo.domain;
+package com.smart.framwork.demo.entity.bo;
 
 import lombok.Data;
 
