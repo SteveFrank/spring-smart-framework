@@ -52,4 +52,12 @@ object -> getClass()
     元数据是添加到程序元素如方法、字段、类和包上的额外信息
 ```
 
+```
+JDK启动的时候添加VM options参数
+-Djdk.proxy.ProxyGenerator.saveGeneratedFiles=true
+
+根据生成的类可以查看到invocation
+
+```
+
 
