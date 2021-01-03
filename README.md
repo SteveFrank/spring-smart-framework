@@ -55,9 +55,19 @@ object -> getClass()
 ```
 JDK启动的时候添加VM options参数
 -Djdk.proxy.ProxyGenerator.saveGeneratedFiles=true
-
 根据生成的类可以查看到invocation
 
+-XX:+TraceClassLoading 跟踪类加载
+```
+
+- 6、注解的工作原理
+```
+1) 通过键值对形式为注解属性赋值
+2) 编译器检查注解的使用范围，将注解信息写入元素属性表
+3) 运行是JVM将RunTime的所有注解属性取出并且存入Map中
+4) 创建AnnotationInvocationHandler实例并且传入了前面的map
+5) JVM使用JDK动态代理为注解生成代理类，并且初始化处理器
+6) 通过invoke方法，通过传入方法名称返回注解对应的属性值
 ```
 
 
