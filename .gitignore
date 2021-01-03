@@ -6,5 +6,6 @@ smart-framework-pattern/target
 
 spring-smart-framework.iml
 smart-framework/smart-framework.iml
-smart-framework-web/smart-framework-web.iml
 smart-framework-pattern/smart-framework-pattern.iml
+smart-framework-simple-demo/smart-framework-simple-demo.iml
+smart-framework-web-demo/smart-framework-web-demo.iml
