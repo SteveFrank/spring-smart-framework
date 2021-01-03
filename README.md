@@ -70,4 +70,16 @@ JDK启动的时候添加VM options参数
 6) 通过invoke方法，通过传入方法名称返回注解对应的属性值
 ```
 
+- 7、依赖注入DI
+```
+1) IOC、DI（主流实现）、DL（已经抛弃）
+2) DI
+Setter
+Interface
+Constructor
+Annotation
+
+反射+工厂模式的合体，满足开闭原则
+```
+![img.png](images/img.png)
 
