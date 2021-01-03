@@ -11,7 +11,7 @@
     <packaging>war</packaging>
 
     <groupId>com.smart.framwork.demo</groupId>
-    <artifactId>smart-framework-web</artifactId>
+    <artifactId>smart-framework-web-demo</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

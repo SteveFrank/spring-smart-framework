@@ -1,11 +1,13 @@
 .idea
 
 smart-framework/target
-smart-framework-web/target
 smart-framework-pattern/target
+smart-framework-web-demo/target
+smart-framework-simple-demo/target
 
 spring-smart-framework.iml
 smart-framework/smart-framework.iml
 smart-framework-pattern/smart-framework-pattern.iml
 smart-framework-simple-demo/smart-framework-simple-demo.iml
 smart-framework-web-demo/smart-framework-web-demo.iml
+smart-framework-web-demo/smart-framework-web.iml
