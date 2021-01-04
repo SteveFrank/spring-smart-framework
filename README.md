@@ -81,5 +81,17 @@ Annotation
 
 反射+工厂模式的合体，满足开闭原则
 ```
-![img.png](images/img.png)
+![依赖注入DI.png](images/依赖注入DI.png)
+
+- 8、自研框架IOC
+1. 使用
+![自研框架IOC的使用.png](images/自研框架IOC的使用.png)
+
+2. 框架具备的基本功能
+![框架基本功能.png](images/框架基本功能.png)
+   
+3. 自研框架的基本实现（IOC容器）
+
+
+
 
