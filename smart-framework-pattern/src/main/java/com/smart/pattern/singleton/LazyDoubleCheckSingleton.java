@@ -3,6 +3,9 @@ package com.smart.pattern.singleton;
 /**
  * 懒汉单例模式
  * volatile关键字避免了重排，同样可以保证了线程的安全
+ *
+ * 但是通过反射可以直接创建新的
+ *
  * @author yangqian
  * @date 2021/1/5
  */
