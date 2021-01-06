@@ -13,10 +13,11 @@ public class SingletonDemo {
     public static void main(String[] args) throws Exception {
         System.out.println(EnumStarvingSingleton.getInstance());
         Class clazz = EnumStarvingSingleton.class;
+        // 通过反射的方式强制获取
         Constructor constructor = clazz.getDeclaredConstructor();
         constructor.setAccessible(true);
-        EnumStarvingSingleton enumStarvingSingleton = (EnumStarvingSingleton)constructor.newInstance();
-        System.out.println(enumStarvingSingleton.getInstance());
+//        EnumStarvingSingleton enumStarvingSingleton = (EnumStarvingSingleton)constructor.newInstance();
+//        System.out.println(enumStarvingSingleton.getInstance());
     }
 
 }
