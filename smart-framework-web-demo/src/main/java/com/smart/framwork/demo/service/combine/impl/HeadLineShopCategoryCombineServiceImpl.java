@@ -7,6 +7,8 @@ import com.smart.framwork.demo.entity.dto.Result;
 import com.smart.framwork.demo.service.combine.HeadLineShopCategoryCombineService;
 import com.smart.framwork.demo.service.solo.HeadLineService;
 import com.smart.framwork.demo.service.solo.ShopCategoryService;
+import org.smart.framwork.core.annotation.Service;
+import org.smart.framwork.inject.annotation.Autowired;
 
 import java.util.List;
 
@@ -14,10 +16,12 @@ import java.util.List;
  * @author yangqian
  * @date 2021/1/1
  */
+@Service
 public class HeadLineShopCategoryCombineServiceImpl implements HeadLineShopCategoryCombineService {
 
+    @Autowired
     private HeadLineService headLineService;
-
+    @Autowired
     private ShopCategoryService shopCategoryService;
 
     @Override
