@@ -193,7 +193,7 @@ public class BeanContainer {
         // 2、判断keySet里的元素是否是传入的接口或者类的子类，如果是，就将其添加到classSet里
         Set<Class<?>> classSet = new HashSet<>();
         for(Class<?> clazz : keySet) {
-            // 判断keySet里的元素是否是传入的接口或者类的子类
+            // 判断keySet里的元素是否是传入的接口或者类的子类 (排除本身的情况)
             if(interfaceOrClass.isAssignableFrom(clazz) && !clazz.equals(interfaceOrClass)) {
                 classSet.add(clazz);
             }
