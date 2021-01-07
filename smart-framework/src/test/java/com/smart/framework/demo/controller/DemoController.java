@@ -8,4 +8,5 @@ import org.smart.framwork.core.annotation.Controller;
  */
 @Controller
 public class DemoController {
+
 }

@@ -4,7 +4,7 @@
 ### 遍历所有的类（或者指定范围的类）
 
 ### 类加载器
-![类加载器ClassLoader.png](../images/类加载器ClassLoader.png)
+![img.png](../images/类加载器ClassLoader.png)
 
 ### 容器
 1、容器的单例定义
@@ -29,3 +29,6 @@
   - 通过注解来获取被注解标注的Class
   - 通过超类获取对应的子类Class
   - 获取容器载体保存Class数量
+  
+5、Spring 作用域
+![img.png](../images/spring作用域.png)
