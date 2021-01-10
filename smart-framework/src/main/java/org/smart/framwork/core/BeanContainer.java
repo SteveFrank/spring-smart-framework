@@ -73,7 +73,10 @@ public class BeanContainer {
     }
 
     /**
-     * 扫描加载所有的Bean
+     * 收入接口：扫描加载所有的Bean
+     *
+     * 将扫描的Class信息加载到Map中存储
+     *
      * @param packageName
      */
     public synchronized void loadBeans(String packageName) {
@@ -94,6 +97,7 @@ public class BeanContainer {
         for (Class<?> clazz : classSet) {
             for (Class<? extends Annotation> annotation : BEAN_ANNOTATION) {
                 // 1、检查如果类上面是标记定义了注解
+                // 处理注解了的类
                 if (clazz.isAnnotationPresent(annotation)) {
                     // 2、如果包含注解 => 则将目标类本身作为键，目标类的实例作为值，放入到beanMap中
                     beanMap.put(clazz, ClassUtil.newInstance(clazz, true));
