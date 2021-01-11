@@ -48,3 +48,23 @@
   - 不需要为了创建Bean而在原来的java类的基础上添加任何额外的限制
   - 对Java对象的控制方式体现在配置上
 
+9、BeanDefinition - Bean的定义
+![img.png](../images/Bean的定义.png)
+
+10、ApplicationContext常用容器
+  - AnnotationConfigServletWebServerApplicationContext
+  - AnnotationConfigReactiveWebServerApplicationContext
+  - AnnotationConfigApplicationContext
+
+11、主要要掌握的是容器的共性
+  - refresh() 大致功能
+
+12、模板方法模式
+  - 模板方法
+  - 具体方法
+    - 模板中自带的方法，一般不会发生改变
+  - 勾子方法
+    - 子类可以依据情况实现的方法
+  - 抽象方法
+    - 必须让子类实现的方法
+
