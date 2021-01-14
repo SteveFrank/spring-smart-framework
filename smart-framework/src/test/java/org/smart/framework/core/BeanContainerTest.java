@@ -35,9 +35,8 @@ public class BeanContainerTest {
     @Test
     public void getBeanTest() {
         DemoController controller = (DemoController) beanContainer.getBean(DemoController.class);
-        Assertions.assertEquals(true, controller instanceof DemoController);
+        Assertions.assertTrue(controller instanceof DemoController);
         System.out.println("load DemoController success");
-        controller.demoServiceSayHello();
     }
 
     @DisplayName("根据注解获取对应的实例：getClassesByAnnotationTest")
