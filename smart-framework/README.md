@@ -83,7 +83,11 @@
 ```
 监听器将监听感兴趣的时间，一旦时间发生，便会立即做出响应
 1) 事件源（Event Source）
-2) 事件监听器（Event Listener）
+2) 事件监听器（Event Listener） 
 3) 事件对象（Event Object）
 ```
-
+  - Spring事件驱动模型
+    - 事件驱动模型的三大组成部分
+      - 事件：ApplicationEvent 抽象类
+      - 事件监听器：ApplicationListener
+      - 事件发布器：Publisher 以及 Multicaster
